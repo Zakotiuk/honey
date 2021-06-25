@@ -43,6 +43,13 @@ class Students extends Component {
         this.props.getStudent(this.state.currentPage);
     }
 
+    handleTableChange = (sorter) =>{
+        const model = {
+            sortField: sorter.field,
+            sortOrder: sorter.order,
+        }
+    }
+
     handleCancel = () => {
         this.setState({
             isEditModal: false
@@ -98,30 +105,34 @@ class Students extends Component {
             {
                 title: 'Name',
                 dataIndex: 'name',
-                sorter: {
-                    compare: (a, b) => a.name.length - b.name.length,
-                },
+                sorter : true,
+                // sorter: {
+                //     compare: (a, b) => a.name.length - b.name.length,
+                // },
             },
             {
                 title: 'Last Name',
                 dataIndex: 'lastname',
-                sorter: {
-                    compare: (a, b) => a.lastname.length - b.lastname.length,
-                }
+                sorter : true
+                // sorter: {
+                //     compare: (a, b) => a.lastname.length - b.lastname.length,
+                // }
             },
             {
                 title: 'Age',
                 dataIndex: 'age',
-                sorter: {
-                    compare: (a, b) => a.age - b.age,
-                },
+                sorter : true
+                // sorter: {
+                //     compare: (a, b) => a.age - b.age,
+                // },
             },
             {
                 title: 'Email',
                 dataIndex: 'email',
-                sorter: {
-                    compare: (a, b) => a.email.length - b.email.length,
-                },
+                sorter : true
+                // sorter: {
+                //     compare: (a, b) => a.email.length - b.email.length,
+                // },
             },
             {
                 title: 'Action',
@@ -167,7 +178,7 @@ class Students extends Component {
                     <h2>Students manager:</h2>
                     <div className="main-panel">
                         <Search placeholder="Search..." onSearch={this.onSearch} enterButton ></Search>
-                        <Table {...tableProps} columns={columns} dataSource={this.state.students} pagination={false} ></Table>
+                        <Table onChange={this.handleTableChange} {...tableProps} columns={columns} dataSource={this.state.students} pagination={false} ></Table>
 
                     </div>
                     {totalCount > 0 && <div className="pagination text-center">

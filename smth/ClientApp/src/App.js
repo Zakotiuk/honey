@@ -26,9 +26,10 @@ export default class App extends Component {
         <Route exact path='/register' component={RegisterPage}/>
         <Route exact path='/' component={Home}/>
         <Route exact path='/courses'component={CoursePage} />
+        <Route exact path="/panelStudent" component={PanelCoursePage} />
 
-        <PrivateRoute exact path="/panelStudent" roles={"Admin"} component={PanelPage} />{/* Admin panel with student-manager */}
-        <PrivateRoute exact path="/panelCourses" roles={"Admin"} component={PanelCoursePage} />{/* Admin panel with course-manager */}
+        {/* <PrivateRoute exact path="/panelStudent" roles={"Admin"} component={PanelPage} />Admin panel with student-manager */}
+        {/* <PrivateRoute exact path="/panelCourses" roles={"Admin"} component={PanelCoursePage} />Admin panel with course-manager */}
         <PrivateRoute exact path="/profile" roles={"Student"} component={ProfilePage} />
     </Suspense>
     </Fragment>
