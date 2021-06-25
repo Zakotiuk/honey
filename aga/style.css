@@ -1,0 +1,13 @@
+.imgHeader{
+    margin-top: 0px !important;
+  } 
+
+.textHeader{
+  text-align: center;
+  padding-top: 300px;
+}
+.btn{
+  background-color: rgb(223, 195, 223);
+  border-width: 2px;
+  border-color: rgb(151, 127, 151);
+}

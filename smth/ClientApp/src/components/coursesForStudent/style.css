@@ -1,0 +1,40 @@
+
+  .btnSub {
+    margin-top:15px !important;
+    background-color: #770d54 !important;
+  }
+
+  .btnSub:hover {
+    background-color: #a1189b !important;
+  }
+  .textHeader{
+    text-align: center;
+    padding-top: 300px;
+    margin: 0px !important;
+  }
+  .imgHeader{
+    margin-top: 0px !important;
+    margin: 0px !important;
+  }  
+  .titles{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+
+  h3{
+    color: black !important;
+  }
+
+  .smallText{
+    margin-top: 0px !important;
+  }
+
+  .bigText{
+    margin-bottom: 0px !important;
+  }
+
+  .text{
+    text-align: center;
+    padding-bottom: 20px;
+  }

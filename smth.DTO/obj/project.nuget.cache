@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dPkefzrl5BC9eXzt3818MbiGht8+ltUvVzT9b5NALp5EKQJC1nQaM/OpNrvzYEs59gufYvPIf86bhu6A55MtVg==",
+  "success": true,
+  "projectFilePath": "D:\\All\\smth\\smth.DTO\\smth.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Utilizador\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

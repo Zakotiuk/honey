@@ -1,0 +1,9 @@
+D:\All\smth\smth.DTO\bin\Debug\netcoreapp3.1\smth.DTO.deps.json
+D:\All\smth\smth.DTO\bin\Debug\netcoreapp3.1\smth.DTO.dll
+D:\All\smth\smth.DTO\bin\Debug\netcoreapp3.1\smth.DTO.pdb
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.csprojAssemblyReference.cache
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.AssemblyInfoInputs.cache
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.AssemblyInfo.cs
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.csproj.CoreCompileInputs.cache
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.dll
+D:\All\smth\smth.DTO\obj\Debug\netcoreapp3.1\smth.DTO.pdb

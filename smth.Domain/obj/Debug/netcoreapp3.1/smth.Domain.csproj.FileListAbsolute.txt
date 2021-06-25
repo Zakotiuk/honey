@@ -1,0 +1,14 @@
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.Domain.deps.json
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.Domain.dll
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.Domain.pdb
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.DataAccess.dll
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.DTO.dll
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.DataAccess.pdb
+D:\All\smth\smth.Domain\bin\Debug\netcoreapp3.1\smth.DTO.pdb
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.csprojAssemblyReference.cache
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.AssemblyInfoInputs.cache
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.AssemblyInfo.cs
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.csproj.CoreCompileInputs.cache
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.csproj.CopyComplete
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.dll
+D:\All\smth\smth.Domain\obj\Debug\netcoreapp3.1\smth.Domain.pdb
